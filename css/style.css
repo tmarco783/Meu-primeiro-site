@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+
+body{
+    position: relative;
+    color: black;
+    text-align: justify;
+}
+
+/* Configurando o cabeçalho */
+
+header#cabecalho{
+    position: relative;
+    top: 0px;
+    left: 30px;
+    width: 1300px;
+    height: 100px;
+    border-bottom: medium ridge darkgreen;
+}
+
+header#cabecalho img#icone{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    opacity: 0.85;
+    float: left;
+    top: -10px;
+    left: 60px;
+    box-shadow: 2px 2px 2px black; 
+    border-radius: 50%;
+}
+
+header#cabecalho img#icone:hover{
+    opacity: 1;
+    transition: opacity 1s;
+    box-shadow: 3px 3px 3px black;
+    transition: box-shadow 0.5s;
+}
+
+header#cabecalho nav#menu li{
+    position: relative;
+    top: 27px;
+    left: 750px;
+    font-family: 'Ubuntu', sans-serif;
+    display: inline-block;
+    background-color: white;
+    opacity: 0.85;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 7px 23px 7px 23px;
+    border: thin solid darkgreen;
+}
+
+header#cabecalho nav#menu li:hover{
+    opacity: 1;
+    transition: opacity 1s;
+    transform: background-color 0.5s;
+}
+
+header#cabecalho nav#menu a{
+    text-decoration: none;
+    color: black;
+}
+
+header#cabecalho nav#menu a:hover{
+    color: darkgreen;
+    transition: color 0.3s;
+}
+
+div#quadro1{
+    position: absolute;
+    top: 135px;
+    left: 80px;
+    background-color: white;
+    opacity: 0.85;
+    width: 575px;
+    height: 600px;
+    border-radius: 10px;
+}
+
+div#quadro1:hover{
+    opacity: 1;
+    background-color: white;
+    transition: background-color 0.5s;
+    transition: opacity 0.5s;
+}
+
+div#quadro1 p{
+    text-align: justify;
+    margin: 0px 12px 0px 12px;
+    font-size: 12pt;
+}
+
+div#quadro1 h1{
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: #00FA9A;
+}
+
+div#quadro1 img{
+    position: relative;
+    width: 500x;
+    height: 275px;
+    top: 55px;
+    left: 45px;
+    border-radius: 10px;
+}
+
+.background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    opacity: 0;
+    -moz-opacity: 0;
+    filter:alpha(opacity=0);
+    z-index: 100;
+    display: none;
+}
+
+.box{
+    position: absolute;
+    top: 125px;
+    left: 20px;
+    width: 515px;
+    height: 270px;
+    background-color: #FFFFFF;
+    z-index: 101;
+    padding: 14px;
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    box-shadow: 2px 2px 2px #333333;
+    -moz-box-shadow: 2px 2px 2px #333333;
+    -webkit-box-shadow: 2px 2px 2px #333333;
+    opacity: 1.00;
+    display: none;
+}
+
+.close{
+    float: right;
+    margin-right: 0px;
+    cursor:pointer;
+}
+
+div#quadro1 img#surgir{
+    position: absolute;
+    top: 11px;
+    left: 12px;
+    border-radius: 8px;
+}
+
+div#quadro2{
+    position: relative;
+    width: 586px;
+    height: 293px;
+    top: 32px;
+    left: 670px;
+    border-radius: 10px;
+    background-color: white;
+    opacity: 0.85;
+    color: black;
+}
+div#quadro2:hover{
+    opacity: 1;
+    background-color: white;
+    transition: background-color 0.5s;
+    transition: opacity 0.5s;
+}
+
+div#quadro2 h1{
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: darkorange;
+}
+
+div#quadro2 p{
+    text-align: justify;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+div#quadro2 img#macaco{
+    position: relative;
+    width: 235px;
+    height: 135px;
+    border-radius: 10px;
+    bottom: 20px;
+    left: 335px;
+}
+
+div#quadro3{
+    position: relative;
+    top: 47px;
+    left: 670px;
+    background-color: white;
+    width: 289px;
+    height: 292px;
+    opacity: 0.85;
+    border-radius: 10px;
+}
+
+div#quadro3:hover{
+    opacity: 1;
+    background-color: white;
+    transition: background-color 0.5s;
+    transition: opacity 0.5s;
+}
+
+div#quadro3 h1{
+    text-align: center;
+    background-color: #1E90FF;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    
+}
+
+div#quadro3 p{
+    text-align: justify;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+div#quadro3 a{
+    text-decoration: none;
+    color: black;
+}
+
+div#quadro3 a:hover{
+    color: darkgreen;
+    transition: color 0.3s;
+}
+
+div#quadro4{
+    position: relative;
+    bottom: 245px;
+    left: 976px;
+    background-color: white;
+    border-radius: 10px;
+    width: 280px;
+    height: 135px;
+    
+}
+
+div#quadro4 iframe#video{
+    position: relative;
+    width: 280px;
+    height: 135px;
+    border-radius: 10px;
+} 
+
+div#quadro5{
+    position: relative;
+    bottom: 232px;
+    left: 976px;
+    background-color: white;
+    border-radius: 10px;
+    width: 280px;
+    height: 143px;
+}
+
+div#quadro5 iframe#video{
+    position: relative;
+    width: 280px;
+    height: 143px;
+    border-radius: 10px;
+}
+
+footer#rodape{
+    position: absolute;
+    top: 887px;
+    left: 80px;
+    width: 1005px;
+    font-family: 'Ubuntu', sans-serif;
+    clear: both;
+    border: 1px solid black;
+    background-color: white;
+    padding: 20px 90px 20px 90px;
+    opacity: 0.85;
+    border-radius: 10px;
+    margin-bottom: 15px;
+
+}
+
+footer#rodape:hover{
+    opacity: 1;
+    transition: opacity 0.4s;
+}
+
+footer#rodape p{
+    text-align: center;
+    margin: auto;
+}
+
+footer#rodape a{ 
+    color: black;
+    text-decoration: none;
+}
+
+footer#rodape a:hover{
+    color: darkgreen;
+    transition: color 0.3s;
+}
